@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0.5em;
+    gap: 1em;
+}
+
+.top-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.layer-one {
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+        display: flex;
+        flex-flow: column wrap;
+        max-width: 30%;
+    }
+
+}
