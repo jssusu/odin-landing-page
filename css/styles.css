@@ -21,12 +21,27 @@ ul {
     gap: 1em;
 }
 
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 .top-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    row-gap: 50px;
+}
 
-    row-gap: 20px;
+.header,
+.hero {
+    margin-left: 0px;
 }
 
 .header {
@@ -44,15 +59,16 @@ ul {
         max-height: 60px;
     }
 
-    p {
+    a {
         font-size: 24px;
-        font-weight: bold; 
         max-width: 100px;
         margin-left: 0px;
+        text-decoration: none;
+        color:#F9FAF8;
     }
 
     #tutel {
-        margin-right: 2%;
+        margin: 0% 2%;
     }
 
     #twitter {
@@ -64,13 +80,82 @@ ul {
 .hero {
     display: flex;
     justify-content: space-between;
+    margin-right: 0%;
+    margin-bottom: 50px;
 
     .left {
         display: flex;
         flex-flow: column wrap;
-        max-width: 30%;
+        max-width: 35%;
+        margin-top: 3%;
+        row-gap: 15px;
     }
 
+    img {
+        max-width: 50%;
+        margin-left: 0%;
+    }
+
+    p {
+        font-size: 18px;
+        color: #E5E7EB;
+    }
+
+    button {
+        max-width: 10em;
+    }
+
+}
+
+#hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    row-gap: 50px;
+
+    .subtitle {
+        align-self: center;
+        font-size: 36px;
+        font-weight: bolder;
+        color: #1F2937;
+    }
+}
+
+.bios {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 100%;
+}
+
+.bio {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 185px;
+    row-gap: 5px;
+
+    img {
+        max-width: 175px;
+        max-height: 175px;
+        border: solid #3882F6 5px;
+        border-radius: 7px;
+    }
+
+    .name {
+        align-self: center;
+        font-size: 18px;
+    }
+
+    .desc {
+        display: flex;
+        flex-flow: row wrap;
+        color:#1F2937;
+        font-size: 16px;
+    }
 }
 
 .top-content,
