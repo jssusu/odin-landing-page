@@ -131,10 +131,10 @@ button {
 .bios {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: baseline;
     max-width: 100%;
-    row-gap: 10px;
+    row-gap: 25px;
     margin-bottom: 50px;
 }
 
@@ -171,6 +171,11 @@ button {
     margin: 0%;
     display: flex;
     justify-content: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px 10%;
 }
 
 .top-content,
