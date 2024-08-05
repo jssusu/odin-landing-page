@@ -21,6 +21,11 @@ ul {
     gap: 1em;
 }
 
+a {
+    text-decoration: none;
+    color: #1F2937;
+}
+
 button {
     background-color: #3882F6;
     color: white;
@@ -63,7 +68,6 @@ button {
         font-size: 24px;
         max-width: 100px;
         margin-left: 0px;
-        text-decoration: none;
         color:#F9FAF8;
     }
 
@@ -164,6 +168,7 @@ button {
         flex-flow: row wrap;
         color:#1F2937;
         font-size: 16px;
+        margin-inline-start: 1em;
     }
 }
 
@@ -175,10 +180,17 @@ button {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 50px 10%;
+    padding: 75px 12%;
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1F2937;
+
+    a {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0px 2.5%;
+    }
 }
 
 #attribution {
@@ -186,6 +198,49 @@ button {
     justify-content: flex-end;
     font-style: normal;
     font-size: 28px;
+    margin-top: 1.5%;
+}
+
+.buttonheim {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 20%;
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 1.5%;
+    color: #F9FAF8;
+
+    .text {
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1;
+        row-gap: 0.5em;
+        margin-left: 2%;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+        max-width: 20%;
+        margin: 1% 2%;
+    }
+
+    button {
+        border: solid 2px #F9FAF8;
+        padding: 0.5em;
+        max-width: 300em;
+        max-height: 3em;
+    }
+
+    #beeg {
+        font-size: 24px;
+    }
+
+    #plea {
+        color: #E5E7EB;
+    }
 }
 
 .top-content,
