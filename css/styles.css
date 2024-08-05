@@ -248,3 +248,13 @@ button {
     background-color: #1F2937;
     color: #F9FAF8;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 1.5% 0px;
+
+    a {
+        color: #F9FAF8;
+    }
+}
