@@ -248,6 +248,11 @@ button {
     #plea {
         color: #E5E7EB;
     }
+
+    #disclaimer {
+        color: #E5E7EB;
+        font-size: 13px;
+    }
 }
 
 .top-content,
