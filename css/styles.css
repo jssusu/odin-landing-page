@@ -19,6 +19,7 @@ ul {
     list-style-type: none;
     padding: 0.5em;
     gap: 1em;
+    margin-right: 12.5%;
 }
 
 a {
@@ -72,7 +73,10 @@ button {
     }
 
     #tutel {
-        margin: 0% 2%;
+        margin-left: 10%;
+        margin-right: 2%;
+        max-width: 75px;
+        max-height: 75px;
     }
 
     #twitter {
@@ -92,7 +96,7 @@ button {
         flex-flow: column wrap;
         max-width: 35%;
         margin-top: 3%;
-        row-gap: 15px;
+        row-gap: 3%;
     }
 
     img {
@@ -106,6 +110,10 @@ button {
     }
 
     button {
+        display: flex;
+        align-content: center;
+        padding: 0.75em;
+        margin-left: 0px;
         max-width: 10em;
         font-size: 14px;
     }
@@ -230,7 +238,6 @@ button {
     button {
         border: solid 2px #F9FAF8;
         padding: 0.5em;
-        max-width: 300em;
         max-height: 3em;
     }
 
