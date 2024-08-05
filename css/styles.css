@@ -128,7 +128,7 @@ button {
 .information {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 60px;
     row-gap: 50px;
 
     .subtitle {
@@ -147,7 +147,7 @@ button {
     align-items: baseline;
     max-width: 100%;
     row-gap: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .bio {
